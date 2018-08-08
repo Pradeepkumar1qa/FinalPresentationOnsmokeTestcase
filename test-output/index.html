@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\pradeepkumar1\AppData\Local\Temp\testng-eclipse-1567953985\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="Step01_Launch_Application">Step01_Launch_Application</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="checkingteam">checkingteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="testing_news">testing_news</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="testingcontact">testingcontact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="testinginnovation">testinginnovation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="testingservicesmenu">testingservicesmenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="testingvertical">testingvertical</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="verify_download_section">verify_download_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="verify_search_functionality">verify_search_functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qait.acs.tests.TestFirst" hash-for-method="verify_vertical_section">verify_vertical_section</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qait.acs.tests.TestFirst</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step01_Launch_Application">
+                  </a> <!-- Step01_Launch_Application -->
+                  <span class="method-name">Step01_Launch_Application</span>
+                  <em>
+(launching brwoser)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkingteam">
+                  </a> <!-- checkingteam -->
+                  <span class="method-name">checkingteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_news">
+                  </a> <!-- testing_news -->
+                  <span class="method-name">testing_news</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingcontact">
+                  </a> <!-- testingcontact -->
+                  <span class="method-name">testingcontact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testinginnovation">
+                  </a> <!-- testinginnovation -->
+                  <span class="method-name">testinginnovation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingservicesmenu">
+                  </a> <!-- testingservicesmenu -->
+                  <span class="method-name">testingservicesmenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingvertical">
+                  </a> <!-- testingvertical -->
+                  <span class="method-name">testingvertical</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_download_section">
+                  </a> <!-- verify_download_section -->
+                  <span class="method-name">verify_download_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_search_functionality">
+                  </a> <!-- verify_search_functionality -->
+                  <span class="method-name">verify_search_functionality</span>
+                  <em>
+(performing negative testing for search box)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_vertical_section">
+                  </a> <!-- verify_vertical_section -->
+                  <span class="method-name">verify_vertical_section</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pradeepkumar1\AppData\Local\Temp\testng-eclipse-1567953985\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qait.acs.tests.TestFirst&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_search_functionality')
+data.setCell(0, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(0, 3, 31465);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_download_section')
+data.setCell(1, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(1, 3, 17558);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_vertical_section')
+data.setCell(2, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(2, 3, 10834);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Step01_Launch_Application')
+data.setCell(3, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(3, 3, 6516);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testingservicesmenu')
+data.setCell(4, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(4, 3, 6271);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testing_news')
+data.setCell(5, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(5, 3, 3433);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testingcontact')
+data.setCell(6, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(6, 3, 3226);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testingvertical')
+data.setCell(7, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(7, 3, 3207);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testinginnovation')
+data.setCell(8, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(8, 3, 3181);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkingteam')
+data.setCell(9, 2, 'com.qait.acs.tests.TestFirst')
+data.setCell(9, 3, 3161);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Step01_Launch_Application</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">launching chrome browser</span>
+                <span class="reporter-method-output">The application url is :- https://www.qainfotech.com</span>
+                <span class="reporter-method-output">The test browser is :- chrome
+</span>
+                <span class="reporter-method-output">launched chrome browser</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testingservicesmenu</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">clicking on service menu</span>
+                <span class="reporter-method-output">service section is visible on clicking it</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_vertical_section</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying that vertical section is being displayed</span>
+                <span class="reporter-method-output">clicking on healthcare section </span>
+                <span class="reporter-method-output">Healthcare submenu of Vertical section is redirecting to another page on clicking  healthe care </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_download_section</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying that download section is working </span>
+                <span class="reporter-method-output">going to download page</span>
+                <span class="reporter-method-output">working successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testinginnovation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying that innovation menu is working properly</span>
+                <span class="reporter-method-output">innvoation section is displayed on clicking the innovation menu</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testingcontact</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying that contact form is being displayed when users click on contact menu</span>
+                <span class="reporter-method-output">successfully landed on contact section of page </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testingvertical</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying vertical section of the menu</span>
+                <span class="reporter-method-output">vertical section is displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_news</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying that news section is being displayed when user hits the news button</span>
+                <span class="reporter-method-output">News section is displayed on clicking on news </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkingteam</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying that team section is being displayed</span>
+                <span class="reporter-method-output">Team section is  displayed when users click on the team menu button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_search_functionality</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying that search functionalityh is working properly</span>
+                <span class="reporter-method-output">providing search input{}{{}{}{}</span>
+                <span class="reporter-method-output">search functionality is working properly</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qait.acs.tests.TestFirst</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Start_Test_Session</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.Step01_Launch_Application())</span>
+                <span class="method-start">23453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Step01_Launch_Application</span>
+                <span class="method-start">23455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=Step01_Launch_Application status=SUCCESS method=TestFirst.Step01_Launch_Application...)</span>
+                <span class="method-start">29973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.verify_search_functionality())</span>
+                <span class="method-start">29977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_search_functionality</span>
+                <span class="method-start">29978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.testingservicesmenu())</span>
+                <span class="method-start">61443 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=verify_search_functionality status=SUCCESS method=TestFirst.verify_search_functiona...)</span>
+                <span class="method-start">61443 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testingservicesmenu</span>
+                <span class="method-start">61443 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=testingservicesmenu status=SUCCESS method=TestFirst.testingservicesmenu()[pri:3, in...)</span>
+                <span class="method-start">67715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.testingvertical())</span>
+                <span class="method-start">67717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testingvertical</span>
+                <span class="method-start">67717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=testingvertical status=SUCCESS method=TestFirst.testingvertical()[pri:4, instance:c...)</span>
+                <span class="method-start">70926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.testinginnovation())</span>
+                <span class="method-start">70927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testinginnovation</span>
+                <span class="method-start">70928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=testinginnovation status=SUCCESS method=TestFirst.testinginnovation()[pri:5, instan...)</span>
+                <span class="method-start">74110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkingteam</span>
+                <span class="method-start">74112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.checkingteam())</span>
+                <span class="method-start">74112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=checkingteam status=SUCCESS method=TestFirst.checkingteam()[pri:6, instance:com.qai...)</span>
+                <span class="method-start">77275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.testing_news())</span>
+                <span class="method-start">77276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testing_news</span>
+                <span class="method-start">77276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=testing_news status=SUCCESS method=TestFirst.testing_news()[pri:7, instance:com.qai...)</span>
+                <span class="method-start">80712 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.testingcontact())</span>
+                <span class="method-start">80715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testingcontact</span>
+                <span class="method-start">80715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=testingcontact status=SUCCESS method=TestFirst.testingcontact()[pri:8, instance:com...)</span>
+                <span class="method-start">83942 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.verify_vertical_section())</span>
+                <span class="method-start">83944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_vertical_section</span>
+                <span class="method-start">83944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=verify_vertical_section status=SUCCESS method=TestFirst.verify_vertical_section()[p...)</span>
+                <span class="method-start">94784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.qait.acs.tests.TestFirst.verify_download_section())</span>
+                <span class="method-start">94791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_download_section</span>
+                <span class="method-start">94792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_Test_Session</span>
+                <span class="method-start">112351 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=verify_download_section status=SUCCESS method=TestFirst.verify_download_section()[p...)</span>
+                <span class="method-start">112351 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
